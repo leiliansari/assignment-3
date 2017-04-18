@@ -115,8 +115,9 @@ li a {
 main {
   float: left;
   width: 60%;
-  margin-left: 9%;
-  margin-bottom: 60px;
+  margin-left: 10%;
+  margin-bottom: 120px;
+  margin-top: 80px;
 }
 
 main section {
@@ -136,6 +137,7 @@ h2 {
 h3 {
   font-size: 32px;
   font-weight: 800;
+  padding-bottom: 20px;
 }
 
 h2, h3 {
@@ -163,8 +165,9 @@ aside {
   float: left;
   width: 20%;
   margin-left: 2%;
-  margin-right: 9%;
+  margin-right: 5%;
   color: #033048;
+  padding-top:20px;
 }
 
 aside li {
@@ -176,8 +179,8 @@ aside div {
   margin-top: 50px;
 }
 
-main {
-  margin-top: 50px;
+aside img {
+  padding-top: 50px;
 }
 
 main a {
@@ -196,6 +199,14 @@ aside a {
   font-weight: 600;
   color: #033048;
   float: left;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  line-height: 120%;
 }
 
 footer h2 {
